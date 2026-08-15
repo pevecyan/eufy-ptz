@@ -1,0 +1,22 @@
+{
+  "name": "eufy-ptz",
+  "version": "1.0.0",
+  "main": "onvif-server.js",
+  "scripts": {
+    "start": "node onvif-server.js"
+  },
+  "keywords": [
+    "eufy",
+    "onvif",
+    "ptz",
+    "camera",
+    "frigate"
+  ],
+  "author": "pevecyan",
+  "license": "MIT",
+  "description": "ONVIF PTZ proxy server for Eufy pan-tilt cameras (C220, C210, etc.)",
+  "dependencies": {
+    "eufy-security-client": "^3.0.0",
+    "xml2js": "^0.6.2"
+  }
+}

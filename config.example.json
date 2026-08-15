@@ -1,0 +1,14 @@
+{
+    "eufy": {
+        "email": "your-email@example.com",
+        "password": "your-password",
+        "country": "US",
+        "language": "en",
+        "stationSerial": "T8W11PXXXXXXXXXX"
+    },
+    "onvif": {
+        "port": 8080,
+        "hostname": "0.0.0.0",
+        "advertiseIP": "192.168.1.100"
+    }
+}
