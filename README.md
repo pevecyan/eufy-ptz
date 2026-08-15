@@ -66,7 +66,7 @@ docker run -d \
 ```yaml
 services:
   eufy-ptz:
-    build: .
+    image: ghcr.io/pevecyan/eufy-ptz:latest
     container_name: eufy-ptz
     restart: unless-stopped
     network_mode: host
